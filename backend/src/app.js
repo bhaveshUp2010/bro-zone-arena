@@ -15,7 +15,7 @@ app.use(express.static("public"))
 app.use(cookieParser())
 app.use(
     cors({
-        origin: "https://bro-zone-arena-580lh84i2-bhaveshup2010s-projects.vercel.app/",
+        origin: "https://bro-zone-arena.vercel.app",
         credentials: true,
     })
 );
